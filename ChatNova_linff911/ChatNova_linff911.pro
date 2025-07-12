@@ -10,24 +10,30 @@ CONFIG += c++17
 RC_ICONS= icon.ico
 DESTDIR = ./bin
 SOURCES += \
+    clickedlabel.cpp \
     global.cpp \
     httpmgr.cpp \
     logindialog.cpp \
     main.cpp \
     mainwindow.cpp \
-    registerdialog.cpp
+    registerdialog.cpp \
+    timerbtn.cpp
 
 HEADERS += \
+    clickedlabel.h \
     global.h \
     httpmgr.h \
     logindialog.h \
     mainwindow.h \
     registerdialog.h \
-    singleton.h
+    registerdialog.h \
+    singleton.h \
+    timerbtn.h
 
 FORMS += \
     logindialog.ui \
     mainwindow.ui \
+    registerdialog.ui \
     registerdialog.ui
 
 TRANSLATIONS += \

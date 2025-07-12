@@ -1,6 +1,11 @@
-const config_module = require('./config.json'); // 确保你正确引入 config.json 文件
+const config_module = require('./config'); // 确保你正确引入 config.json 文件
 const Redis = require("ioredis");
-console.log("Connecting to Redis with:", config_module.redis);
+console.log("→ Redis 正在连接到:", {
+    host: config_module.redis_host,
+    port: config_module.redis_port,
+    password: config_module.redis_passwd
+});
+
 // 创建 Redis 客户端实例
 const RedisCli = new Redis({
     host: config_module.redis_host,        // Redis 服务器主机名
