@@ -52,7 +52,7 @@
           <widget class="QWidget" name="widget" native="true">
            <layout class="QVBoxLayout" name="verticalLayout_4">
             <item>
-             <widget class="QLabel" name="err_tip">
+             <widget class="QLabel" name="error_tip">
               <property name="text">
                <string>错误提示</string>
               </property>

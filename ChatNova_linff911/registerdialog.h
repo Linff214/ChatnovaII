@@ -24,9 +24,7 @@ public:
 private slots:
     void on_get_code_clicked();
     void on_sure_btn_clicked();
-
     void on_return_btn_clicked();
-
     void on_cancel_btn_clicked();
 
 public slots:

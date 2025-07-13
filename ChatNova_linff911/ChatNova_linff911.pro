@@ -17,6 +17,7 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     registerdialog.cpp \
+    resetdialog.cpp \
     timerbtn.cpp
 
 HEADERS += \
@@ -27,6 +28,7 @@ HEADERS += \
     mainwindow.h \
     registerdialog.h \
     registerdialog.h \
+    resetdialog.h \
     singleton.h \
     timerbtn.h
 
@@ -34,7 +36,8 @@ FORMS += \
     logindialog.ui \
     mainwindow.ui \
     registerdialog.ui \
-    registerdialog.ui
+    registerdialog.ui \
+    resetdialog.ui
 
 TRANSLATIONS += \
     ChatNova_linff911_zh_CN.ts
