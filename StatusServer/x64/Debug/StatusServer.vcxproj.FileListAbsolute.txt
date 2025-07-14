@@ -1,0 +1,1 @@
+F:\04Code\C++\StatusServer\x64\Debug\StatusServer.exe
