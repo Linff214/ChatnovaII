@@ -1,0 +1,50 @@
+# Visual Studio 缓存文件
+.vs/
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# 中间文件和生成文件
+*.obj
+*.pdb
+*.ilk
+*.ipch
+*.log
+*.tlog
+*.tmp
+*.cache
+*.exe
+*.dll
+*.lib
+
+# 构建输出目录
+x64/
+x86/
+Debug/
+Release/
+build/
+
+# CMake/Make等临时生成目录（如用vcpkg）
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 忽略子模块中的生成物（如你项目中的 ChatNova_linff911）
+ChatNova_linff911/x64/
+ChatNova_linff911/Debug/
+ChatNova_linff911/Release/
+GateServer/x64/
+GateServer/.vs/
+GateServer/.Debug/
+VarifyServer/x64/
+VarifyServer/.vs/
+VarifyServer/.Debug/
+VarifyServer/node_modules/
+StatusServer/x64/
+StatusServer/.vs/
+StatusServer/.Debug/
