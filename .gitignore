@@ -48,3 +48,6 @@ VarifyServer/node_modules/
 StatusServer/x64/
 StatusServer/.vs/
 StatusServer/.Debug/
+ChatServer/x64/
+ChatServer/.vs/
+ChatServer/.Debug/
